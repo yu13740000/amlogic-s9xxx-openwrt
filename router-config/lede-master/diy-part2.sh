@@ -36,6 +36,9 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 #add ssrplus
 svn co https://github.com/fw876/helloworld/trunk package/openwrt-ssrplus
 
+# Add luci-app-dockerman
+svn co https://github.com/lisaac/luci-app-dockerman/trunk package/luci-app-dockerman
+
 # Add p7zip
 # svn co https://github.com/hubutui/p7zip-lede/trunk package/p7zip
 
