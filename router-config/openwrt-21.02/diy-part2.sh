@@ -31,6 +31,12 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
 #add ssrplus
 svn co https://github.com/fw876/helloworld/trunk package/openwrt-ssrplus
 
+#add passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk package/openwrt-passwall
+
+# Add luci-app-dockerman
+svn co https://github.com/lisaac/luci-app-dockerman/trunk package/luci-app-dockerman
+
 # Add autocore
 svn co https://github.com/ophub/amlogic-s9xxx-openwrt/trunk/amlogic-s9xxx/common-files/patches/autocore package/lean/autocore
 
